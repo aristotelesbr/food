@@ -2,7 +2,7 @@
 service: food
 
 # Name of the container image.
-image: menu-reservation-api/aristotelesbr/menu-reservation-api
+image: menu-reservation-api/aristotelesbr/foo
 
 # Deploy to these servers.
 servers:
