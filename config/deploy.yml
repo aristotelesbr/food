@@ -2,7 +2,7 @@
 service: food
 
 # Name of the container image.
-image: registry.digitalocean.com/menu-reservation-api/food
+image: menu-reservation-api/food
 
 # Deploy to these servers.
 servers:
