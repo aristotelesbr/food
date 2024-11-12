@@ -21,9 +21,11 @@ proxy:
   ssl: true
   host: food.ari
   # Proxy connects to your container on port 80 by default.
-  # app_port: 3000
+  app_port: 3000
   healthcheck:
     path: /up
+    interval: 10
+    timeout: 5
 
 # Credentials for your image host.
 registry:
