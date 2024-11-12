@@ -2,7 +2,7 @@
 service: food
 
 # Name of the container image.
-image: coutinho/aristotelesbr/food
+image: coutinho/food
 
 # Deploy to these servers.
 servers:
