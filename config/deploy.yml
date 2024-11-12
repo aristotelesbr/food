@@ -7,7 +7,7 @@ image: aristotelesbr/fangorn
 # Deploy to these servers.
 servers:
   web:
-    - 209.38.158.82
+    - 137.184.36.116
   # job:
   #   hosts:
   #     - 192.168.0.1
