@@ -208,19 +208,21 @@ APP =
           </body>
           </html>
       HTML
+
       res.status = 200
       res.html html
     end
 
     route.get '/up' do |_req, res|
-      res.status = 200
       html = <<~HTML
         <html>
-          <body style="background-color: green;">
-            <h1>OK</h1>
-          </body>
+        <body style="background-color: green;">
+        <h1>OK</h1>
+        </body>
         </html>
       HTML
+
+      res.status = 200
       res.html html
     end
   end
